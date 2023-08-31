@@ -1,6 +1,6 @@
 package com.itheima.pattern.adapter.class_adapter;
 
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+//import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 
 /**
  * @version v1.0

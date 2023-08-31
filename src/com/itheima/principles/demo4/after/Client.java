@@ -9,6 +9,9 @@ import com.itheima.principles.demo4.before.HeimaSafetyDoor;
  * @Author: 黑马程序员
  */
 public class Client {
+    //客户端不应该被迫依赖于它不使用的方法；一个类对另一个类的依赖应该建立在最小的接口上。
+
+
     public static void main(String[] args) {
         //创建黑马安全门对象
         HeimaSafetyDoor door = new HeimaSafetyDoor();
