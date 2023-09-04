@@ -1,19 +1,22 @@
-/*
 package com.itheima.pattern.proxy.cglib_proxy;
 
+import jdk.jfr.Description;
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
-*/
-/**
+/*
  * @version v1.0
  * @ClassName: ProxyFactory
  * @Description: 代理对象工厂，用来获取代理对象
- * @Author: 黑马程序员
- *//*
+ * @Author: 黑马程序员*/
+
+
+import net.sf.cglib.proxy.Enhancer;
+import net.sf.cglib.proxy.MethodInterceptor;
+import net.sf.cglib.proxy.MethodProxy;
 
 public class ProxyFactory implements MethodInterceptor {
 
@@ -40,4 +43,3 @@ public class ProxyFactory implements MethodInterceptor {
         return obj;
     }
 }
-*/
