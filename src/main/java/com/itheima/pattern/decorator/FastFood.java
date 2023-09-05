@@ -6,6 +6,7 @@ package com.itheima.pattern.decorator;
  * @Description: 快餐类(抽象构件角色)
  * @Author: 黑马程序员
  */
+//Componen
 public abstract class FastFood {
 
     private float price;//价格

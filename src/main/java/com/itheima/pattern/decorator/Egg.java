@@ -6,6 +6,7 @@ package com.itheima.pattern.decorator;
  * @Description: 鸡蛋类(具体的装饰者角色)
  * @Author: 黑马程序员
  */
+//Concrete Decorator
 public class Egg extends Garnish {
 
     public Egg(FastFood fastFood) {

@@ -1,6 +1,6 @@
 package com.itheima.pattern.singleton.demo2;
 
-import com.sun.org.apache.bcel.internal.generic.RETURN;
+//import com.sun.org.apache.bcel.internal.generic.RETURN;
 
 /**
  * @version v1.0

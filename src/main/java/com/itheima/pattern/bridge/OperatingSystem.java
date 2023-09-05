@@ -6,12 +6,12 @@ package com.itheima.pattern.bridge;
  * @Description: 抽象的操作系统类(抽象化角色)
  * @Author: 黑马程序员
  */
-public abstract class OpratingSystem {
+public abstract class OperatingSystem {
 
     //声明videFile变量
     protected VideoFile videoFile;
 
-    public OpratingSystem(VideoFile videoFile) {
+    public OperatingSystem(VideoFile videoFile) {
         this.videoFile = videoFile;
     }
 

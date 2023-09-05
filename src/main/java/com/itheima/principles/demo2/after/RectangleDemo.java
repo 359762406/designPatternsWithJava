@@ -1,6 +1,6 @@
 package com.itheima.principles.demo2.after;
 
-import org.junit.Test;
+//import org.junit.Test;
 
 /**
  * @version v1.0
@@ -17,19 +17,8 @@ public class RectangleDemo {
 
 如果通过重写父类的方法来完成新的功能，这样写起来虽然简单，但是整个继承体系的可复用性会比较差，特别是运用多态比较频繁时，程序运行出错的概率会非常大。
     * */
-//    public static void main(String[] args) {
-//        //创建长方形对象
-//        Rectangle r = new Rectangle();
-//        r.setLength(20);
-//        r.setWidth(10);
-//        //调用方法进行扩宽操作
-//        resize(r);
-//
-//        printLengthAndWidth(r);
-//    }
-    @Test
-    public void test1(){
-                //创建长方形对象
+    public static void main(String[] args) {
+        //创建长方形对象
         Rectangle r = new Rectangle();
         r.setLength(20);
         r.setWidth(10);
@@ -38,6 +27,17 @@ public class RectangleDemo {
 
         printLengthAndWidth(r);
     }
+//    @Test
+//    public void test1(){
+//                //创建长方形对象
+//        Rectangle r = new Rectangle();
+//        r.setLength(20);
+//        r.setWidth(10);
+//        //调用方法进行扩宽操作
+//        resize(r);
+//
+//        printLengthAndWidth(r);
+//    }
 
     //扩宽的方法
     public static void resize(Rectangle rectangle) {
